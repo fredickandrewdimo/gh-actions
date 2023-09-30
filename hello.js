@@ -1,1 +1,2 @@
-console.log("Hello, Github Actions!");
+const name = "Github Actions!";
+console.log(`Hello, ${name}`);
