@@ -1,2 +1,7 @@
-const name = "Github Actions!";
-console.log(`Hello, ${name}`);
+function greet(name) {
+  return `Hello, ${name}`;
+}
+
+module.exports = {
+  greet,
+};
